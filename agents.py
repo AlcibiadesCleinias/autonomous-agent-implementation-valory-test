@@ -23,10 +23,9 @@ class Behavior(ABC):
     async def execute(self, *args, **kwargs):
         pass
 
-# TODO: make even better: different types for outbox and inbox (by specifying the type of the message).
-
 
 class MessageQueue(ABC):
+    # TODO: make even better: different types for outbox and inbox (by specifying the type of the message).
     @abstractmethod
     async def put(self, item):
         pass
