@@ -58,3 +58,15 @@ To run the example:
 ```python
 python example.py
 ```
+
+## Testing
+
+This project includes unit and integration tests to ensure the correct functionality of the autonomous agents. The tests are implemented using pytest and can be found in the `test_agents.py` file.
+
+### Running Tests
+
+To run the tests, make sure you have pytest installed:
+
+```bash
+pytest
+```
